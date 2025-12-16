@@ -1,4 +1,4 @@
-nome ="Igor" 
+nome = "Igor" 
 sobrenome = "Manoel"
 idade = "32"
 

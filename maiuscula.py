@@ -1,0 +1,6 @@
+print("Esse programa vai ler seu nome e sobrenome e exibi-los tudo em caixa alta")
+caixa_alta = input("Digite uma palavra para ser convertida para caixa alta: ").upper()
+caixa_baixa = input("Digite uma palavra em caixa alta para ser convertida em caixa baixa: ").lower()
+primeira_letra_maiuscula = input("Digite uma palavra para converter a primeira letra em maiusculaÇ ").capitalize()
+print(caixa_alta, caixa_baixa, primeira_letra_maiuscula)
+#print(f"{nome} {sobrenome}")
