@@ -1,27 +1,28 @@
 a = input()
 b = input()
 c = input()
+
 dicionario = {
     "vertebrado": {
         "ave": {
-            "carnivoro": "aguia",
-            "onivoro": "pomba"
+            "carnivoro" : "aguia",
+            "onivoro" : "pomba"
         },
         "mamifero": {
-            "onivoro": "homem",
-            "herbivoro": "vaca"
+            "onivoro" : "homem",
+            "herbivoro" : "vaca"
         }
     },
-    "invertebrado": {
+    "invertebrado" :{
         "inseto": {
-            "hematofago": "pulga",
-            "herbivoro": "lagarta"
+            "hematofago" : "pulga",
+            "herbivoro" : "lagarta"
         },
         "anelideo": {
-            "hematofago": "sanguessuga",
-            "onivoro": "minhoca"
+            "hematofago" : "sanguessuga",
+            "onivoro" : "minhoca"
         }
-    },
+    }
 }
 
 print(dicionario[a][b][c])
