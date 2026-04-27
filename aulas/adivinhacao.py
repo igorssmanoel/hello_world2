@@ -1,3 +1,6 @@
+import datetime
+
+
 numero_secreto = 7
 
 # Enquanto a pessoa nao acerta o numero_secreto, exibir a mensagem:
@@ -9,3 +12,4 @@ numero_secreto = 7
 # Adivinhe o numero (entre 1 e 10):
 # As outras mensagens eh:
 # Voce errou! Adivinhe o numero (entre 1 e 10):
+
